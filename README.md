@@ -1,4 +1,8 @@
-# CS 425 MP3: MapleJuice
+# MapleJuice
+
+## Introduction
+
+This is a Hadoop-like Distributed Computing System for distributed file storage and big data processing. It is implemented following the MapReduce programming paradigm and a reliable Gossip-style failure detection protocol. 
 
 ## Project Setup Requirement
 
@@ -9,8 +13,8 @@ Please install the following tools with correct version first:
 
 ## Source Code path
 
-1. MP3: `src/main/java/edu/cs425/mp3`
-2. MP3 Report: `report`
+1. Code: `src/main/java/edu/cs425/mp3`
+2. Report: `report`
 
 ## Steps to build & run project
 
