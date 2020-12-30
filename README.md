@@ -18,7 +18,7 @@ Please install the following tools with correct version first:
 
 ## Steps to build & run project
 
-1. Change to the root of our project directory: `cd distributed-group-membership/`
+1. Change to the root of our project directory: `cd MapleJuice/`
 
 2. Start the server process by issuing the command: `./start.sh <node number> <deployment mode>` 
 
