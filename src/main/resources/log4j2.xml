@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" name="GroupMembership" packages="">
+    <Appenders>
+        <File name="LogToFile" fileName="logs/server.log" append="true">
+            <PatternLayout>
+                <Pattern>[%p] %d{yyyy-MM-dd HH:mm:ss} %m%n</Pattern>
+            </PatternLayout>
+        </File>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout>
+                <Pattern>[%p] %d{yyyy-MM-dd HH:mm:ss} %m%n</Pattern>
+            </PatternLayout>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="edu.cs425.mp3.MapleJuice" level="debug" additivity="false">
+            <AppenderRef ref="LogToFile"/>
+            <AppenderRef ref="ConsoleAppender"/>
+        </Logger>
+        <Root level="debug">
+            <AppenderRef ref="LogToFile"/>
+            <AppenderRef ref="ConsoleAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

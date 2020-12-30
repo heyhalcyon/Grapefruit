@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: edu.cs425.mp1.FileServer
+Class-Path: target/distributed-group-membership-1.0-SNAPSHOT.jar
+
