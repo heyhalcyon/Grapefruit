@@ -9,10 +9,8 @@ Please install the following tools with correct version first:
 
 ## Source Code path
 
-1. MP1: `MP1-archive/distributed-group-membership/src/main/java/edu/cs425/mp1` 
-2. MP2: `MP2-archive/src/main/java/edu/cs425/mp2`
-3. MP3: `src/main/java/edu/cs425/mp3`
-4. MP3 Report: root path
+1. MP3: `src/main/java/edu/cs425/mp3`
+2. MP3 Report: `report`
 
 ## Steps to build & run project
 
@@ -96,6 +94,6 @@ Please install the following tools with correct version first:
 
     Stop the both SDFS Server and Membership Server process. You can also use `Ctrl C` to kill the server process.
 
-## Contact
+## Authors
 
-[Dayue Bai](mailto:dayueb2@illinois.edu), [Yitan Ze](mailto:yitanze2@illinois.edu) (in alphabetical order)
+Dayue Bai, Yitan Ze (in alphabetical order)
