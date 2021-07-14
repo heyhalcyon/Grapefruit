@@ -1,4 +1,4 @@
-# MapleJuice
+# Grapefruit
 
 ## Introduction
 
